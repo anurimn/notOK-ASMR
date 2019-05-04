@@ -110,7 +110,9 @@ h2{
 }
 
 #menu-icon-instagram,#menu-icon-twitter,#menu-icon-youtube,#menu-icon-game,#menu-icon-EC,#menu-icon-news,#menu-icon-movie{
-    padding:5px;
+    height:50px;
+    width:50px;
+    padding:8px;
     font-size:50px;
     position:fixed;
     background-color:rgb(8, 92, 62);
