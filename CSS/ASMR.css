@@ -17,6 +17,7 @@ header{
     padding:30px;
     margin-bottom:20px;
     background-color: rgb(2, 31, 21);
+    text-align: left;
     color:whitesmoke;
     position: relative;
 }
@@ -88,4 +89,57 @@ h2{
     position: absolute;
     top:10px;
     left:10px;
+}
+
+.fixed-menu{
+    position: relative;
+}
+
+#menu-icon-twitter{
+    padding:5px;
+    font-size:70px;
+    position:fixed;
+    background-color:rgb(2, 31, 21);
+    color:whitesmoke;
+    border-radius:50%;
+    bottom:100px;
+    left:50px;
+}
+
+#menu-icon-youtube{
+    padding:5px;
+    font-size:70px;
+    position:fixed;
+    background-color:rgb(2, 31, 21);
+    color:whitesmoke;
+    border-radius:50%;
+    bottom:200px;
+    left:50px;
+}
+
+#menu-icon-game{
+    padding:5px;
+    font-size:70px;
+    position:fixed;
+    background-color:rgb(2, 31, 21);
+    color:whitesmoke;
+    border-radius:50%;
+    bottom:300px;
+    left:50px;
+}
+
+#menu-icon-EC{
+    padding:5px;
+    font-size:70px;
+    position:fixed;
+    background-color:rgb(2, 31, 21);
+    color:whitesmoke;
+    border-radius:50%;
+    bottom:400px;
+    left:50px;
+}
+
+#menu-icon-twitter:hover,#menu-icon-youtube:hover,#menu-icon-game:hover,#menu-icon-EC:hover{
+    background-color:darkgreen;
+    cursor: pointer;
 }
