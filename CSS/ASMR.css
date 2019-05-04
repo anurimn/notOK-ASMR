@@ -59,6 +59,7 @@ h2{
 }
 
 #post1,#post2,#post3,#post4{
+    color:black;
     border:1px solid #aaa;
     margin:10px;
     height:160px;
