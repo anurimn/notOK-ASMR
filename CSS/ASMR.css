@@ -9,6 +9,10 @@ header{
     width:950px;
 }
 
+header:hover{
+    cursor: pointer;
+}
+
 .header-icon{
     display:inline-block;
     font-size:30px;
