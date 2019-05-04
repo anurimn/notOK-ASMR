@@ -1,25 +1,12 @@
-html, body, div, span, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-abbr, address, cite, code,
-del, dfn, em, img, ins, kbd, q, samp,
-small, strong, sub, sup, var,
-b, i,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section, summary,
-time, mark, audio, video {
-    font-family: 'Lato', 'Noto Sans JP', '游ゴシック Medium', '游ゴシック体', 'Yu Gothic Medium', YuGothic, 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
-}
 
 header{
     padding:30px;
     margin-bottom:20px;
-    background-color: rgb(2, 31, 21);
+    background-color: rgb(8, 92, 62);
     text-align: left;
     color:whitesmoke;
-    position: relative;
+    display:inline-block;
+    width:950px;
 }
 
 .header-icon{
@@ -34,7 +21,7 @@ header{
 
 footer{
     padding:30px;
-    background-color:  rgb(2, 31, 21);
+    background-color:  rgb(8, 92, 62);
     color:whitesmoke;
 }
 
@@ -96,51 +83,41 @@ h2{
     position: relative;
 }
 
-#menu-icon-twitter{
+#menu-icon-twitter,#menu-icon-youtube,#menu-icon-game,#menu-icon-EC,#menu-icon-news{
     padding:5px;
     font-size:70px;
     position:fixed;
-    background-color:rgb(2, 31, 21);
+    background-color:rgb(8, 92, 62);
     color:whitesmoke;
     border-radius:50%;
-    bottom:100px;
     left:50px;
+
+    transition-property: all;
+    transition-duration: 300ms;
+    transition-delay: 0ms;
+    transition-timing-function: ease-in;
+}
+#menu-icon-twitter{
+    bottom:100px;
 }
 
 #menu-icon-youtube{
-    padding:5px;
-    font-size:70px;
-    position:fixed;
-    background-color:rgb(2, 31, 21);
-    color:whitesmoke;
-    border-radius:50%;
     bottom:200px;
-    left:50px;
 }
 
 #menu-icon-game{
-    padding:5px;
-    font-size:70px;
-    position:fixed;
-    background-color:rgb(2, 31, 21);
-    color:whitesmoke;
-    border-radius:50%;
     bottom:300px;
-    left:50px;
 }
 
 #menu-icon-EC{
-    padding:5px;
-    font-size:70px;
-    position:fixed;
-    background-color:rgb(2, 31, 21);
-    color:whitesmoke;
-    border-radius:50%;
     bottom:400px;
-    left:50px;
 }
 
-#menu-icon-twitter:hover,#menu-icon-youtube:hover,#menu-icon-game:hover,#menu-icon-EC:hover{
-    background-color:darkgreen;
+#menu-icon-news{
+    bottom:500px;
+}
+
+#menu-icon-twitter:hover,#menu-icon-youtube:hover,#menu-icon-game:hover,#menu-icon-EC:hover,#menu-icon-news:hover{
+    background-color:rgb(1, 12, 8);
     cursor: pointer;
 }
