@@ -47,7 +47,7 @@ h2{
     margin:20px;
 }
 
-#post1,#post2,#post3,#post4{
+.post{
     color:black;
     border:1px solid #aaa;
     margin:10px;
@@ -59,16 +59,24 @@ h2{
 }
 
 .post-heading{
+    font-size:20px;
     display:block;
     position:absolute;
     top:10px;
     left:200px
 }
 
+.post-heading:hover{
+    cursor: pointer;
+    color:rgba(0, 0, 0, 0.651);
+}
+
 .post-contents{
+    font-family:Arial, Helvetica, sans-serif;
+    color:black;
     display:block;
     position:absolute;
-    top:30px;
+    top:40px;
     left:200px
 }
 
@@ -79,6 +87,15 @@ h2{
     position: absolute;
     top:10px;
     left:10px;
+
+    transition-property: all;
+    transition-duration: 300ms;
+    transition-delay: 0ms;
+    transition-timing-function: ease-in;
+}
+
+.post-pic:hover{
+    cursor: pointer;
 }
 
 .fixed-menu{
