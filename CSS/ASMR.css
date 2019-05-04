@@ -23,6 +23,8 @@ footer{
     padding:30px;
     background-color:  rgb(8, 92, 62);
     color:whitesmoke;
+    display:inline-block;
+    width:950px;
 }
 
 h1{
@@ -83,41 +85,52 @@ h2{
     position: relative;
 }
 
-#menu-icon-twitter,#menu-icon-youtube,#menu-icon-game,#menu-icon-EC,#menu-icon-news{
+#menu-icon-twitter,#menu-icon-youtube,#menu-icon-game,#menu-icon-EC,#menu-icon-news,#menu-icon-movie{
     padding:5px;
-    font-size:70px;
+    font-size:40px;
     position:fixed;
     background-color:rgb(8, 92, 62);
     color:whitesmoke;
     border-radius:50%;
     left:50px;
 
+    opacity: 0.3;
+
+    
+
     transition-property: all;
     transition-duration: 300ms;
     transition-delay: 0ms;
     transition-timing-function: ease-in;
+
+
 }
 #menu-icon-twitter{
-    bottom:100px;
+    bottom:50px;
 }
 
 #menu-icon-youtube{
-    bottom:200px;
+    bottom:120px;
 }
 
 #menu-icon-game{
-    bottom:300px;
+    bottom:190px;
 }
 
 #menu-icon-EC{
-    bottom:400px;
+    bottom:260px;
 }
 
 #menu-icon-news{
-    bottom:500px;
+    bottom:330px;
 }
 
-#menu-icon-twitter:hover,#menu-icon-youtube:hover,#menu-icon-game:hover,#menu-icon-EC:hover,#menu-icon-news:hover{
+#menu-icon-movie{
+    bottom:400px;
+}
+
+#menu-icon-twitter:hover,#menu-icon-youtube:hover,#menu-icon-game:hover,#menu-icon-EC:hover,#menu-icon-news:hover,#menu-icon-movie:hover{
     background-color:rgb(1, 12, 8);
     cursor: pointer;
+    opacity: 1;
 }
