@@ -109,7 +109,7 @@ h2{
     position: relative;
 }
 
-#menu-icon-twitter,#menu-icon-youtube,#menu-icon-game,#menu-icon-EC,#menu-icon-news,#menu-icon-movie{
+#menu-icon-instagram,#menu-icon-twitter,#menu-icon-youtube,#menu-icon-game,#menu-icon-EC,#menu-icon-news,#menu-icon-movie{
     padding:5px;
     font-size:50px;
     position:fixed;
@@ -129,8 +129,18 @@ h2{
 
 
 }
-#menu-icon-twitter{
+#menu-icon-instagram{
     bottom:50px;
+    background-color:rgba(231, 68, 95, 0.623);
+    opacity: 0.3;
+
+    transition-property: all;
+    transition-duration: 300ms;
+    transition-delay: 0ms;
+    transition-timing-function: ease-in;
+}
+#menu-icon-twitter{
+    bottom:120px;
     background-color:rgb(29, 141, 175);
     opacity: 0.3;
 
@@ -142,7 +152,7 @@ h2{
 }
 
 #menu-icon-youtube{
-    bottom:120px;
+    bottom:190px;
     background-color:red;
     opacity: 0.3;
 
@@ -154,19 +164,19 @@ h2{
 }
 
 #menu-icon-game{
-    bottom:190px;
-}
-
-#menu-icon-EC{
     bottom:260px;
 }
 
-#menu-icon-news{
+#menu-icon-EC{
     bottom:330px;
 }
 
-#menu-icon-movie{
+#menu-icon-news{
     bottom:400px;
+}
+
+#menu-icon-movie{
+    bottom:470px;
 }
 
 #menu-icon-game:hover,#menu-icon-EC:hover,#menu-icon-news:hover,#menu-icon-movie:hover{
@@ -183,6 +193,12 @@ h2{
 
 #menu-icon-twitter:hover{
     background-color:rgba(29, 141, 175, 0.609);
+    cursor: pointer;
+    opacity: 1;
+}
+
+#menu-icon-instagram:hover{
+    background-color:rgba(231, 68, 95, 0.623);
     cursor: pointer;
     opacity: 1;
 }
