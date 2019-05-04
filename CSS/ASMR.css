@@ -1,0 +1,91 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    font-family: 'Lato', 'Noto Sans JP', '游ゴシック Medium', '游ゴシック体', 'Yu Gothic Medium', YuGothic, 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+}
+
+header{
+    padding:30px;
+    margin-bottom:20px;
+    background-color: rgb(2, 31, 21);
+    color:whitesmoke;
+    position: relative;
+}
+
+.header-icon{
+    display:inline-block;
+    font-size:30px;
+    position: absolute;
+    cursor: pointer;
+}
+#icon-twitter:hover,#icon-youtube:hover{
+    color:red;
+}
+
+footer{
+    padding:30px;
+    background-color:  rgb(2, 31, 21);
+    color:whitesmoke;
+}
+
+h1{
+    font-size : 40px;
+}
+
+h2{
+    font-size : 30px;
+}
+
+.opening-movie{
+    text-align: center;
+}
+
+.news{
+    text-align : center;
+}
+
+.news-heading{
+    margin:20px;
+}
+
+#post1,#post2,#post3,#post4{
+    border:1px solid #aaa;
+    margin:10px;
+    height:160px;
+    width:1000px;
+    background-color:#aaa;
+    display:inline-block;
+    position:relative;
+}
+
+.post-heading{
+    display:block;
+    position:absolute;
+    top:10px;
+    left:200px
+}
+
+.post-contents{
+    display:block;
+    position:absolute;
+    top:30px;
+    left:200px
+}
+
+.post-pic{
+    height:140px;
+    width :140px;
+    display:block;
+    position: absolute;
+    top:10px;
+    left:10px;
+}
